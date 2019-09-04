@@ -15,7 +15,6 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
 
-        <mapping resource="message.hbm.xml" />
       	<mapping resource="student.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
